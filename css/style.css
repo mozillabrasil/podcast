@@ -96,7 +96,7 @@ body {
 }
 
 body:before {
-    position:absolute;
+    position:fixed;
     bottom:0;
     right:0px;
     width:100%;
@@ -223,10 +223,39 @@ body:before {
 	color:#444
 }
 .page-heading {
-  background:rgba(0,0,0,0.2);
-  color:#fff;
-  padding:5px 40px 5px 40px;
-  font-family: "Open Sans Extrabold";
-  text-transform: uppercase;
-  font-style: italic;
+    background:rgba(0,0,0,0.2);
+    color:#fff;
+    padding:5px 40px 5px 40px;
+    font-family: "Open Sans Extrabold";
+    text-transform: uppercase;
+    font-style: italic;
+}
+.row {
+	padding:0;
+	margin:0;
+}
+.podcast-item .thumb {
+    max-width: 100%;
+    height: auto !important;
+    display:block;
+}
+.img-thumbnail {
+    background-color: rgba(0,0,0,0.7);
+    border-color: rgba(0,0,0,0.8);
+}
+.podcast-item {
+    text-align: center;
+}
+.podcast-item h2 a{
+    color:#eee;
+    font-family: "Open Sans Light";
+}
+.post-date {
+  background: rgba(0,0,0,0.3);
+  padding:5px;
+  margin-top:10px;
+  color:#eee;
+}
+.podcast-item img:hover {
+  opacity: 0.5;
 }
