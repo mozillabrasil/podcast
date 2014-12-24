@@ -1,12 +1,26 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post container">
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
+
+  <div class="postthumb"><img src="{{ site.assetsserver }}/{{ page.podcast }}/capa-{{ page.podcast }}.png"></div>
+
+  <audio class="podplayer" controls>
+      <source src="{{ site.assetsserver }}/{{ page.podcast }}/podcast-{{ page.podcast }}.ogg" type="audio/ogg">
+      <source src="{{ site.assetsserver }}/{{ page.podcast }}/podcast-{{ page.podcast }}-128.mp3" type="audio/mpeg">
+      Seu navegador não suporta o player de áudio. Atualize o seu navegador ou faça download do áudio.
+  </audio> 
+
+  <div style="text-align:center;"><div class="btn-group download" role="group">
+      <a class="btn btn-primary" href="{{ site.assetsserver }}/{{ page.podcast }}/podcast-{{ page.podcast }}-64.mp3"><span class="glyphicon glyphicon-save"></span> MP3 - Baixa Qualidade</a>
+      <a class="btn btn-primary" href="{{ site.assetsserver }}/{{ page.podcast }}/podcast-{{ page.podcast }}-128.mp3"><span class="glyphicon glyphicon-save"></span> MP3 - Alta Qualidade</a>
+      <a class="btn btn-primary" href="{{ site.assetsserver }}/{{ page.podcast }}/podcast-{{ page.podcast }}.ogg"><span class="glyphicon glyphicon-save"></span> OGG</a>
+  </div></div>
 
   <article class="post-content">
     {{ content }}

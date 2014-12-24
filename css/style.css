@@ -106,6 +106,7 @@ body:before {
     background-position: right;
     background-size:auto auto;
     content:'';
+    z-index: -1;
 }
 
 .navbar-topo .navbar-brand {
@@ -121,20 +122,20 @@ body:before {
 }
 
 .navbar-topo .navbar-brand{
-	color:#fff;
+	color:#FFF;
 }
 
 .navbar-topo .navbar-brand:hover,.navbar-topo .navbar-brand:focus{
-	color:#9d9d9d;
+	color:#CECECE;
 	background-color:transparent
 }
 
 .navbar-topo .navbar-text{
-	color:#9d9d9d
+	color:#CECECE
 }
 
 .navbar-topo .navbar-nav>li>a{
-	color:#9d9d9d
+	color:#CECECE
 }
 
 .navbar-topo .navbar-nav>li>a:hover,.navbar-topo .navbar-nav>li>a:focus{
@@ -183,7 +184,7 @@ body:before {
 	}
 
 	.navbar-topo .navbar-nav .open .dropdown-menu>li>a{
-		color:#9d9d9d
+		color:#CECECE
 	}
 
 	.navbar-topo .navbar-nav .open .dropdown-menu>li>a:hover,.navbar-topo .navbar-nav .open .dropdown-menu>li>a:focus{
@@ -204,7 +205,7 @@ body:before {
 }
 
 .navbar-topo .navbar-link{
-	color:#9d9d9d
+	color:#CECECE
 }
 
 .navbar-topo .navbar-link:hover{
@@ -212,7 +213,7 @@ body:before {
 }
 
 .navbar-topo .btn-link{
-	color:#9d9d9d
+	color:#CECECE
 }
 
 .navbar-topo .btn-link:hover,.navbar-topo .btn-link:focus{
@@ -251,11 +252,50 @@ body:before {
     font-family: "Open Sans Light";
 }
 .post-date {
-  background: rgba(0,0,0,0.3);
-  padding:5px;
-  margin-top:10px;
-  color:#eee;
+    background: rgba(0,0,0,0.3);
+    padding:5px;
+    margin-top:10px;
+    color:#eee;
 }
 .podcast-item img:hover {
-  opacity: 0.5;
+    opacity: 0.5;
+}
+.post.container {
+    margin-top:40px;
+    background: #fff;
+    padding:20px 40px 40px 40px;
+}
+.post-header {
+    margin-bottom:30px;
+}
+.podplayer {
+    width:100%;
+    margin-bottom:20px;
+}
+.download.btn-group {
+    margin-bottom:20px;
+}
+.postthumb img{
+    max-width: 100%;
+    height: auto;
+}
+.postthumb {
+    text-align: center;
+    margin-bottom:10px;
+}
+.post-header h1{
+    font-family: "Open Sans ExtraBold";
+    text-transform: uppercase;
+    font-style: italic;
+}
+.post-content {
+    font-family: "Open Sans";
+}
+.post-content h2{
+    font-family: "Open Sans Light";
+    text-transform: uppercase;
+    text-align: right;
+    padding-bottom:5px;
+    border-bottom:1px solid #ddd;
+    margin-bottom:15px;
 }

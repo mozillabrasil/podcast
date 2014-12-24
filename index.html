@@ -12,12 +12,9 @@ layout: default
 		<h2>
           <a class="post-link" href="{{ post.url | prepend: site.url }}"><b>#{{ post.podcast }}</b> - {{ post.title }}</a>
         </h2>
-		<a class="post-link" href="{{ post.url | prepend: site.url }}"><img src="holder.js/465x300/social/text:Podcast \n Thumbnail" class="thumb img-thumbnail"></a>
+		<a class="post-link" href="{{ post.url | prepend: site.url }}"><img src="{{ site.assetsserver }}/{{ post.podcast }}/capa-{{ post.podcast }}.png" class="thumb img-thumbnail"></a>
         <div class="post-date"><span class="glyphicon glyphicon-calendar"></span> {{ post.date | date: "%b %-d, %Y" }}</div>
       </div>
     {% endfor %}
   </div>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.url }}">via RSS</a></p>
-
 </div>
