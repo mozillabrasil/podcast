@@ -1,0 +1,10 @@
+title: Mozilla Brasil Podcast
+url: "http://127.0.0.1:4000"
+
+description: "Lorem ipsum dolor sit amet, admodum ceteros vis te, elit cotidieque te ius. An vim equidem liberavisse vituperatoribus. Erat eruditi copiosae vis in. Quot utamur verterem ut vel. Cum dicat graece vivendo et, id consul explicari democritum usu."
+
+timezone:    America/Sao_Paulo
+permalink:   /:title/
+markdown: kramdown
+
+paginate: 5
