@@ -7,6 +7,8 @@ timezone:    America/Sao_Paulo
 permalink:   /:title/
 markdown: kramdown
 
+locale: pt-BR
+
 managingeditormail: podcast@mozillabrasil.org.br
 webmastermail: podcast@mozillabrasil.org.br
 

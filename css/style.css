@@ -299,3 +299,6 @@ body:before {
     border-bottom:1px solid #ddd;
     margin-bottom:15px;
 }
+.post-content li{
+    padding:5px;
+}
