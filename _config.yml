@@ -1,5 +1,5 @@
 title: Mozilla Brasil Podcast
-url: "http://127.0.0.1:4000"
+url: "http://127.0.0.1:7666"
 
 description: "Lorem ipsum dolor sit amet, admodum ceteros vis te, elit cotidieque te ius. An vim equidem liberavisse vituperatoribus. Erat eruditi copiosae vis in. Quot utamur verterem ut vel. Cum dicat graece vivendo et, id consul explicari democritum usu."
 
@@ -17,3 +17,5 @@ feedttl: 1440
 paginate: 5
 
 assetsserver: "http://sys.samuelmoraes.com/mozpodcast"
+
+port: 7666
