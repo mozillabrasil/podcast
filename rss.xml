@@ -17,6 +17,7 @@ layout: null
 	<copyright>Creative Commons Attribution Share-Alike License v3.0</copyright>
 	<managingEditor>{{ site.managingeditormail }}</managingEditor>
 	<webMaster>{{ site.webmastermail }}</webMaster>
+	<generator>Comunidade Mozilla Brasil</generator>
 	<ttl>{{ site.feedttl }}</ttl>
 	<image>
 		<url>{{ "/img/capa-podcast.png" | prepend: site.url }}</url>
