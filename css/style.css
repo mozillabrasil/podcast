@@ -302,3 +302,10 @@ body:before {
 .post-content li{
     padding:5px;
 }
+.navbar-brand img {
+    float:left;
+    width:45px;
+    margin-top:-10px;
+    margin-left:-5px;
+    margin-right:10px;
+}
